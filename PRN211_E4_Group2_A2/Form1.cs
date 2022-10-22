@@ -1,3 +1,5 @@
+using PRN211_E4_Group2_A2.Models;
+
 namespace PRN211_E4_Group2_A2
 {
     public partial class Form1 : Form
@@ -23,6 +25,28 @@ namespace PRN211_E4_Group2_A2
         {
             LoginGUI loginGUI = new LoginGUI();
             loginGUI.Show();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Activated(object sender, EventArgs e)
+        {
+            if (Settings.UserName != null && Settings.UserName != "")
+                loginToolStripMenuItem.Text = $"Logout ({Settings.UserName})";
+            else
+                loginToolStripMenuItem.Text = "Login";
+
+            if (Settings.Role == 1)
+                albumsToolStripMenuItem.Visible = true;
+            else
+                albumsToolStripMenuItem.Visible = false;
+
+            ShoppingCart shoppingCart = ShoppingCart.GetCart();
+            int count = shoppingCart.GetCount();
+            cartToolStripMenuItem.Text = $"Cart ({count})";
         }
     }
 }

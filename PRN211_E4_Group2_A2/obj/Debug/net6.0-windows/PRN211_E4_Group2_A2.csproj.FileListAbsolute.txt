@@ -25,7 +25,6 @@ C:\Users\84382\Desktop\PRN211_E4_Group2_A2\PRN211_E4_Group2_A2\bin\Debug\net6.0-
 C:\Users\84382\Desktop\PRN211_E4_Group2_A2\PRN211_E4_Group2_A2\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
 C:\Users\84382\Desktop\PRN211_E4_Group2_A2\PRN211_E4_Group2_A2\bin\Debug\net6.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
 C:\Users\84382\Desktop\PRN211_E4_Group2_A2\PRN211_E4_Group2_A2\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
-C:\Users\84382\Desktop\PRN211_E4_Group2_A2\PRN211_E4_Group2_A2\obj\Debug\net6.0-windows\PRN211_E4_Group2_A2.AdminGUI.resources
 C:\Users\84382\Desktop\PRN211_E4_Group2_A2\PRN211_E4_Group2_A2\obj\Debug\net6.0-windows\PRN211_E4_Group2_A2.AlbumAddEditGUI.resources
 C:\Users\84382\Desktop\PRN211_E4_Group2_A2\PRN211_E4_Group2_A2\obj\Debug\net6.0-windows\PRN211_E4_Group2_A2.AlbumGUI.resources
 C:\Users\84382\Desktop\PRN211_E4_Group2_A2\PRN211_E4_Group2_A2\obj\Debug\net6.0-windows\PRN211_E4_Group2_A2.CartGUI.resources
